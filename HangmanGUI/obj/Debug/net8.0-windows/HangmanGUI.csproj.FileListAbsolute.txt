@@ -1,0 +1,14 @@
+D:\Projects\ProjectHangMan\HangmanGUI\bin\Debug\net8.0-windows\HangmanGUI.exe
+D:\Projects\ProjectHangMan\HangmanGUI\bin\Debug\net8.0-windows\HangmanGUI.deps.json
+D:\Projects\ProjectHangMan\HangmanGUI\bin\Debug\net8.0-windows\HangmanGUI.runtimeconfig.json
+D:\Projects\ProjectHangMan\HangmanGUI\bin\Debug\net8.0-windows\HangmanGUI.dll
+D:\Projects\ProjectHangMan\HangmanGUI\bin\Debug\net8.0-windows\HangmanGUI.pdb
+D:\Projects\ProjectHangMan\HangmanGUI\obj\Debug\net8.0-windows\HangmanGUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ProjectHangMan\HangmanGUI\obj\Debug\net8.0-windows\HangmanGUI.AssemblyInfoInputs.cache
+D:\Projects\ProjectHangMan\HangmanGUI\obj\Debug\net8.0-windows\HangmanGUI.AssemblyInfo.cs
+D:\Projects\ProjectHangMan\HangmanGUI\obj\Debug\net8.0-windows\HangmanGUI.csproj.CoreCompileInputs.cache
+D:\Projects\ProjectHangMan\HangmanGUI\obj\Debug\net8.0-windows\HangmanGUI.dll
+D:\Projects\ProjectHangMan\HangmanGUI\obj\Debug\net8.0-windows\refint\HangmanGUI.dll
+D:\Projects\ProjectHangMan\HangmanGUI\obj\Debug\net8.0-windows\HangmanGUI.pdb
+D:\Projects\ProjectHangMan\HangmanGUI\obj\Debug\net8.0-windows\HangmanGUI.genruntimeconfig.cache
+D:\Projects\ProjectHangMan\HangmanGUI\obj\Debug\net8.0-windows\ref\HangmanGUI.dll

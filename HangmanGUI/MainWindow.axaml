@@ -1,0 +1,50 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="HangmanGUI.MainWindow"
+        Title="Hangman Game"
+        WindowState="Maximized"
+        WindowStartupLocation="CenterScreen">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Category Selection -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,20">
+            <ComboBox x:Name="CategoryComboBox" Width="200" Margin="0,0,20,0" FontSize="16" />
+            <Button x:Name="StartButton" Content="Start Game" Width="150" Height="40" FontSize="16" Click="StartButton_Click" />
+        </StackPanel>
+
+        <!-- Game UI -->
+        <TextBlock x:Name="WordLabel" Grid.Row="1" FontSize="48" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,20,0,20" TextAlignment="Center" />
+        <TextBlock x:Name="HintLabel" Grid.Row="2" FontSize="20" HorizontalAlignment="Center" Margin="0,10,0,10" TextAlignment="Center" Foreground="Blue" />
+        <TextBlock x:Name="MessageLabel" Grid.Row="3" FontSize="24" HorizontalAlignment="Center" Margin="0,10,0,20" TextAlignment="Center" FontWeight="SemiBold" />
+
+        <!-- Hangman Drawing and Action Buttons Side by Side -->
+        <Grid Grid.Row="4" HorizontalAlignment="Center" Margin="0,20,0,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            
+            <!-- Hangman Drawing -->
+            <Canvas x:Name="HangmanCanvas" Grid.Column="0" Width="400" Height="400" Background="WhiteSmoke" Margin="0,0,40,0" />
+            
+            <!-- Action Buttons (Vertical Stack) -->
+            <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="40,0,0,0">
+                <Button x:Name="HintButton" Content="💡 Hint" Width="180" Height="60" FontSize="18" Margin="0,10,0,10" Click="HintButton_Click" />
+                <Button x:Name="MercyButton" Content="🙏 Mercy" Width="180" Height="60" FontSize="18" Margin="0,10,0,10" Click="MercyButton_Click" />
+                <Button x:Name="ExtraLimbsButton" Content="➕ Extra Limbs" Width="180" Height="60" FontSize="18" Margin="0,10,0,10" Click="ExtraLimbsButton_Click" />
+                <Button x:Name="RestartButton" Content="🔄 Restart" Width="180" Height="60" FontSize="18" Margin="0,10,0,10" Click="RestartButton_Click" />
+            </StackPanel>
+        </Grid>
+
+        <!-- Letter Buttons -->
+        <WrapPanel x:Name="LetterButtonsPanel" Grid.Row="5" HorizontalAlignment="Center" Width="700" Margin="0,20,0,20" />
+    </Grid>
+</Window>
